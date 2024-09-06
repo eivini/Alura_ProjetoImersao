@@ -72,11 +72,3 @@ for(let dado of projeto){
           </section>
           `
   }
-  
-  let campoBusca = document.getElementById("campo-busca");
-  
-  campoBusca.addEventListener('keyup', function(event) {
-      if (event.key === 'Enter') {
-          buscar();
-      }
-  });
