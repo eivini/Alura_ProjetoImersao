@@ -1,0 +1,143 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1C1C1C;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    min-height: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    font-size: 7rem; 
+    color: #fff; 
+    text-align: center;
+}
+
+section {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 1rem; 
+}
+
+section input {
+    width: 18rem;
+    border: none; 
+    padding: 0.7rem; 
+    border-radius: 1.5rem; 
+    margin-bottom: 1rem; 
+    text-align: center;
+    color: #45474B; 
+    font-size: 1rem; 
+    box-sizing: border-box; 
+}
+
+section button {
+    padding: 0.8rem 1.2rem; 
+    border: none; 
+    border-radius: 1.5rem; 
+    background-color: #A9A9A9; 
+    text-align: center;
+    color: #363636; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+section button:hover {
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); 
+}
+
+#link-home {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.patrocinio a {
+    text-decoration: none; 
+    color: 	#ffffff; 
+}
+
+.patrocinio section {
+    font-size: 2rem; 
+    width: 95%;
+    max-width: 90rem; 
+    padding: 2rem;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.resultados-busca {
+    width: 90rem; 
+    height: auto; 
+    overflow-y: hidden; 
+    margin-top: 1rem; 
+    padding: 1rem; 
+    border-radius: 0.6rem; 
+}
+
+.item-resultado {
+    background: #C0C0C0; 
+    border-radius: 0.6rem; 
+    padding: 2rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.item-resultado a {
+    text-decoration: none; 
+    color: 	#000000; 
+}
+
+.item-resultado a:hover {
+    text-decoration: underline; 
+}
+
+.descricao-meta {
+    color: #363636; 
+    margin: 0.5rem 0; 
+}
+
+.rodape a {
+    text-decoration: none; 
+    color: 	#ffffff; 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #1C1C1C;
+    color: #ffffff;
+    padding: auto; 
+    width: center;
+    bottom: 0;
+    font-size: 1rem;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
