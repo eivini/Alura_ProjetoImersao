@@ -2,10 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #1C1C1C;
     color: #ffffff;
-    min-height: 100vh;
+    min-height: 98vh;
     display: flex;
     flex-direction: column;
 }
+
 header {
     display: flex;
     flex-direction: column;
@@ -34,6 +35,7 @@ section {
     align-items: center; 
     margin-bottom: 1rem; 
 }
+
 
 section input {
     width: 18rem;
@@ -137,4 +139,34 @@ footer section {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+@media(max-width: 480px){
+    h1 {
+        font-size: 4rem; /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    .patrocinio section {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem; 
+        padding: 3rem;
+        gap: 20px;
+    }
+
+    section button {
+        border: none; 
+        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    }
+
+    .resultados-busca {
+        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        height: auto; /* Altura da caixa de resultados em telas pequenas */
+    }
+
+    footer {
+        font-size: 1rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
 }

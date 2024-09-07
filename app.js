@@ -72,3 +72,11 @@ for(let dado of projeto){
           </section>
           `
   }
+
+  let campoBusca = document.getElementById("campo-busca"); //pedi para o gemini colocar pro usuario poder fazer a busca com o enter
+  
+  campoBusca.addEventListener('keyup', function(event) {
+      if (event.key === 'Enter') {
+          buscar();
+      }
+  });

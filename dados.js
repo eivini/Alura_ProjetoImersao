@@ -28,8 +28,7 @@ let dados = [
         descricao: "One Piece é um anime e mangá japonês que cativou milhões de fãs ao redor do mundo. Criado por Eiichiro Oda, a história acompanha Monkey D. Luffy, um jovem pirata que sonha em encontrar o tesouro lendário One Piece e se tornar o Rei dos Piratas. Junto de sua excêntrica tripulação, o Chapéu de Palha, Luffy navega pelos vastos mares do Grand Line, enfrentando desafios perigosos, desvendando mistérios ancestrais e forjando amizades duradouras. Com uma mistura única de ação, comédia, drama e fantasia, One Piece oferece uma jornada épica que celebra a amizade, a liberdade e a busca por seus sonhos.",
         link: "https://myanimelist.net/anime/21/One_Piece",
         tags: "luffy d. pirata todos"
-
-    }
+    },
 ];
 let social = [
     {
